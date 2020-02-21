@@ -20,10 +20,10 @@ http://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/
 #pip.main(["install", "tweet-preprocessor"])
 
 
-consumer_key = 'ihCD9dqB3uXo4I6nRij66Sw1N'
-consumer_secret = 'X8SxLBoZAFUJFCkkOWT0ufAr1Wk18ZLZetmdrp7EHbi8DDHZTe'
-access_token = 	'4497807209-phRIK2UPwsfAcBZhRtSijf7zIrMZVdwroxXegyl'
-access_token_secret = '4FXARctdSjFtN4rGAcXOdeCVCXMyjXKx2iqrl2HOftjzi'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
